@@ -1,0 +1,4 @@
+﻿  Print_Prime_Numbers.cpp
+D:\Coding\Print_Prime_Numbers\Print_Prime_Numbers.cpp(7,7): warning C4101: 'prime': unreferenced local variable
+D:\Coding\Print_Prime_Numbers\Print_Prime_Numbers.cpp(21,1): warning C4715: 'checkPrime': not all control paths return a value
+  Print_Prime_Numbers.vcxproj -> D:\Coding\Print_Prime_Numbers\x64\Debug\Print_Prime_Numbers.exe

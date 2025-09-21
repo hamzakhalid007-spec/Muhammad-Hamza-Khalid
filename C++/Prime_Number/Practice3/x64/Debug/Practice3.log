@@ -1,0 +1,4 @@
+﻿  Practice3.cpp
+D:\Coding\Practice3\Practice3.cpp(7,7): warning C4101: 'prime': unreferenced local variable
+D:\Coding\Practice3\Practice3.cpp(21,1): warning C4715: 'checkPrime': not all control paths return a value
+  Practice3.vcxproj -> D:\Coding\Practice3\x64\Debug\Practice3.exe

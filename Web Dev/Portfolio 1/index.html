@@ -1,0 +1,830 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hamza's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #191D32;">
+    <nav class="navbar navbar-expand-lg text-white" style="background-color: #282F44;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#" onclick="showPage('home')">Hamza's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link nav-item-link text-white" href="#" onclick="showPage('home')"
+                            data-page="home">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link nav-item-link text-white" href="#" onclick="showPage('about')"
+                            data-page="about">About</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link nav-item-link text-white" href="#" onclick="showPage('services')"
+                            data-page="services">Services</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link nav-item-link text-white" href="#" onclick="showPage('projects')"
+                            data-page="projects">Projects</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link nav-item-link text-white" href="#" onclick="showPage('contact')"
+                            data-page="contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home" class="page container-fluid py-5">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h1 class="display-3 text-white fw-bold mb-4">Hi, I'm Hamza</h1>
+                    <h3 class="text-primary mb-4">Rookie Developer</h3>
+                    <p class="text-light fs-5 mb-4">
+                        A passionate rookie developer eager to turn ideas into code and learn from every challenge.
+                    </p>
+                    <p class="text-light mb-4">
+                        Fresh into the world of development, but committed to growing one line of code at a time.
+                    </p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <button class="btn btn-primary btn-lg px-4 py-3 rounded-pill"
+                            onclick="showPage('projects')">View My Work</button>
+                        <button class="btn btn-outline-light btn-lg px-4 py-3 rounded-pill"
+                            onclick="showPage('contact')">Contact Me</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-developers-are-coding-programs-on-computers-programmers-are-analyzing-data-png-image_11902650.png"
+                        alt="Developer Illustration" class="img-fluid" style="width: 75%; height: auto;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Page -->
+    <div id="about" class="page container-fluid py-5 d-none">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h2 class="display-4 text-white fw-bold mb-4">About Me</h2>
+                    <p class="text-light fs-5 mb-4">
+                        I'm an enthusiastic developer exploring modern web technologies and loving every step of the
+                        journey.
+                        I enjoy building simple yet functional applications and seeing my code come to life.
+                    </p>
+                    <p class="text-light mb-4">
+                        My web development journey began recently, and I'm excited to keep learning and growing with
+                        each project.
+                    </p>
+                    <div class="row g-4">
+                        <div class="col-6">
+                            <div class="card bg-primary text-white h-100 border-0">
+                                <div class="card-body text-center">
+                                    <h3 class="h1 fw-bold">1</h3>
+                                    <p class="mb-0">Years Experience</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card bg-success text-white h-100 border-0">
+                                <div class="card-body text-center">
+                                    <h3 class="h1 fw-bold">5</h3>
+                                    <p class="mb-0">Projects Completed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card bg-dark text-white border-0 shadow-lg">
+                        <div class="card-body p-5">
+                            <h4 class="card-title mb-4">Skills & Technologies</h4>
+                            <div class="row g-3">
+                                <div class="col-6">
+                                    <span class="badge bg-primary fs-6 p-2 w-100">Java</span>
+                                </div>
+                                <div class="col-6">
+                                    <span class="badge bg-info fs-6 p-2 w-100">C++</span>
+                                </div>
+                                <div class="col-6">
+                                    <span class="badge bg-success fs-6 p-2 w-100">Python</span>
+                                </div>
+                                <div class="col-6">
+                                    <span class="badge bg-warning fs-6 p-2 w-100">Web Development</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Page -->
+    <div id="services" class="page container-fluid py-5 d-none">
+        <div class="container">
+            <h2 class="display-4 text-white text-center fw-bold mb-5">My Services</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                        <div class="card-body text-center p-5">
+                            <div class="bg-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-4"
+                                style="width: 80px; height: 80px;">
+                                <span class="fs-1">💻</span>
+                            </div>
+                            <h4 class="card-title mb-3">Web Development</h4>
+                            <p class="card-text">I build simple, responsive websites using HTML, CSS, and JavaScript,
+                                turning design mockups into functional web pages—great for small businesses or personal
+                                sites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                        <div class="card-body text-center p-5">
+                            <div class="bg-success rounded-circle d-inline-flex align-items-center justify-content-center mb-4"
+                                style="width: 80px; height: 80px;">
+                                <span class="fs-1">🎨</span>
+                            </div>
+                            <h4 class="card-title mb-3">Java</h4>
+                            <p class="card-text">Currently learning Java fundamentals—writing clean, efficient code
+                                while exploring OOP principles, data structures, and algorithms. Passionate about
+                                transitioning these skills into real-world applications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                        <div class="card-body text-center p-5">
+                            <div class="bg-info rounded-circle d-inline-flex align-items-center justify-content-center mb-4"
+                                style="width: 80px; height: 80px;">
+                                <span class="fs-1">📱</span>
+                            </div>
+                            <h4 class="card-title mb-3">C++</h4>
+                            <p class="card-text">Building efficient command-line tools and applications using C++.<br> 
+                                Implementing data structures and algorithms for performance-critical tasks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Page -->
+    <div id="projects" class="page container-fluid py-5 d-none">
+        <div class="container">
+            <h2 class="display-4 text-white text-center fw-bold mb-5">My Projects</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                        <div class="card-body p-4">
+                            <div class="bg-primary rounded mb-3 p-3 text-center">
+                                <span class="fs-1">🛒</span>
+                            </div>
+                            <h5 class="card-title mb-3">E-Commerce Platform</h5>
+                            <p class="card-text mb-3">A full-stack e-commerce solution with React, Node.js, and MongoDB.
+                                Features include user authentication, payment integration, and admin dashboard.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">React</span>
+                                <span class="badge bg-success me-1">Node.js</span>
+                                <span class="badge bg-warning me-1">MongoDB</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <button class="btn btn-primary btn-sm">Live Demo</button>
+                                <button class="btn btn-outline-light btn-sm">GitHub</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                        <div class="card-body p-4">
+                            <div class="bg-success rounded mb-3 p-3 text-center">
+                                <span class="fs-1">📱</span>
+                            </div>
+                            <h5 class="card-title mb-3">Task Management App</h5>
+                            <p class="card-text mb-3">A mobile-first task management application with real-time updates,
+                                team collaboration, and progress tracking features.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-info me-1">React Native</span>
+                                <span class="badge bg-success me-1">Firebase</span>
+                                <span class="badge bg-danger me-1">Redux</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <button class="btn btn-primary btn-sm">Live Demo</button>
+                                <button class="btn btn-outline-light btn-sm">GitHub</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                        <div class="card-body p-4">
+                            <div class="bg-info rounded mb-3 p-3 text-center">
+                                <span class="fs-1">📊</span>
+                            </div>
+                            <h5 class="card-title mb-3">Analytics Dashboard</h5>
+                            <p class="card-text mb-3">A comprehensive analytics dashboard with interactive charts,
+                                real-time data visualization, and custom reporting features.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">Vue.js</span>
+                                <span class="badge bg-warning me-1">D3.js</span>
+                                <span class="badge bg-secondary me-1">Python</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <button class="btn btn-primary btn-sm">Live Demo</button>
+                                <button class="btn btn-outline-light btn-sm">GitHub</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                        <div class="card-body p-4">
+                            <div class="bg-warning rounded mb-3 p-3 text-center">
+                                <span class="fs-1">🎵</span>
+                            </div>
+                            <h5 class="card-title mb-3">Music Streaming App</h5>
+                            <p class="card-text mb-3">A Spotify-like music streaming application with playlist
+                                management, search functionality, and social features.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">React</span>
+                                <span class="badge bg-success me-1">Express</span>
+                                <span class="badge bg-info me-1">PostgreSQL</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <button class="btn btn-primary btn-sm">Live Demo</button>
+                                <button class="btn btn-outline-light btn-sm">GitHub</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                        <div class="card-body p-4">
+                            <div class="bg-danger rounded mb-3 p-3 text-center">
+                                <span class="fs-1">🏠</span>
+                            </div>
+                            <h5 class="card-title mb-3">Real Estate Platform</h5>
+                            <p class="card-text mb-3">A modern real estate platform with property listings, virtual
+                                tours, mortgage calculator, and agent dashboard.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">Next.js</span>
+                                <span class="badge bg-success me-1">Prisma</span>
+                                <span class="badge bg-warning me-1">Stripe</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <!doctype html>
+                                <html lang="en">
+
+                                <head>
+                                    <meta charset="utf-8">
+                                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                                    <title>Hamza's Portfolio</title>
+                                    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+                                        rel="stylesheet"
+                                        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+                                        crossorigin="anonymous">
+                                </head>
+
+                                <body style="background-color: #191D32;">
+                                    <nav class="navbar navbar-expand-lg text-white" style="background-color: #282F44;">
+                                        <div class="container-fluid">
+                                            <a class="navbar-brand text-white" href="#"
+                                                onclick="showPage('home')">Hamza's Portfolio</a>
+                                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#navbarNav" aria-controls="navbarNav"
+                                                aria-expanded="false" aria-label="Toggle navigation">
+                                                <span class="navbar-toggler-icon"></span>
+                                            </button>
+                                            <div class="collapse navbar-collapse" id="navbarNav">
+                                                <ul class="navbar-nav ms-auto">
+                                                    <li class="nav-item mx-2">
+                                                        <a class="nav-link nav-item-link text-white" href="#"
+                                                            onclick="showPage('home')" data-page="home">Home</a>
+                                                    </li>
+                                                    <li class="nav-item mx-2">
+                                                        <a class="nav-link nav-item-link text-white" href="#"
+                                                            onclick="showPage('about')" data-page="about">About</a>
+                                                    </li>
+                                                    <li class="nav-item mx-2">
+                                                        <a class="nav-link nav-item-link text-white" href="#"
+                                                            onclick="showPage('services')"
+                                                            data-page="services">Services</a>
+                                                    </li>
+                                                    <li class="nav-item mx-2">
+                                                        <a class="nav-link nav-item-link text-white" href="#"
+                                                            onclick="showPage('projects')"
+                                                            data-page="projects">Projects</a>
+                                                    </li>
+                                                    <li class="nav-item mx-2">
+                                                        <a class="nav-link nav-item-link text-white" href="#"
+                                                            onclick="showPage('contact')" data-page="contact">Contact
+                                                            Me</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </nav>
+
+                                    <!-- Home Page -->
+                                    <div id="home" class="page container-fluid py-5">
+                                        <div class="container">
+                                            <div class="row align-items-center min-vh-100">
+                                                <div class="col-lg-6 mb-5 mb-lg-0">
+                                                    <h1 class="display-3 text-white fw-bold mb-4">Hi, I'm Hamza</h1>
+                                                    <h3 class="text-primary mb-4">Full Stack Developer</h3>
+                                                    <p class="text-light fs-5 mb-4">
+                                                        I'm a passionate developer with expertise in modern web
+                                                        technologies.
+                                                        I specialize in creating beautiful, functional applications that
+                                                        solve real-world problems
+                                                        and deliver exceptional user experiences.
+                                                    </p>
+                                                    <p class="text-light mb-4">
+                                                        With 5+ years of experience in web development, I work with
+                                                        JavaScript, React, Node.js,
+                                                        and various other technologies to bring ideas to life.
+                                                    </p>
+                                                    <div class="d-flex gap-3 flex-wrap">
+                                                        <button class="btn btn-primary btn-lg px-4 py-3 rounded-pill"
+                                                            onclick="showPage('projects')">View My Work</button>
+                                                        <button
+                                                            class="btn btn-outline-light btn-lg px-4 py-3 rounded-pill"
+                                                            onclick="showPage('contact')">Contact Me</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 text-center">
+                                                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAwIiBoZWlnaHQ9IjQwMCIgdmlld0JveD0iMCAwIDUwMCA0MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMTAwXzEiIHgxPSIxMDAiIHkxPSIxMDAiIHgyPSI0MDAiIHkyPSIzMDAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzRGNzNERiIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM1MkJCRjAiLz4KPC9saW5lYXJHcmFkaWVudD4KPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDFfbGluZWFyXzEwMF8xIiB4MT0iNTAiIHkxPSI1MCIgeDI9IjQ1MCIgeTI9IjM1MCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjMkQzNzQ4Ii8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzFBMjAyQyIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+CjwhLS0gRGVzayAtLT4KPHJlY3QgeD0iNTAiIHk9IjI1MCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9InVybCgjcGFpbnQxX2xpbmVhcl8xMDBfMSkiIHJ4PSIxMCIvPgo8IS0tIE1vbml0b3IgU3RhbmQgLS0+CjxyZWN0IHg9IjIyMCIgeT0iMzMwIiB3aWR0aD0iNjAiIGhlaWdodD0iMjAiIGZpbGw9IiMzNzQxNTEiLz4KPGVsbGlwc2UgY3g9IjI1MCIgY3k9IjM2MCIgcng9IjQwIiByeT0iMTAiIGZpbGw9IiMyMDI5MzgiLz4KPCEtLSBNb25pdG9yIDEgLS0+CjxyZWN0IHg9IjcwIiB5PSIxMDAiIHdpZHRoPSIxNjAiIGhlaWdodD0iMTIwIiBmaWxsPSIjMUExQTFBIiByeD0iMTAiLz4KPHJlY3QgeD0iODAiIHk9IjExMCIgd2lkdGg9IjE0MCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiMwQjFFM0MiLz4KPCEtLSBDb2RlIExpbmVzIC0tPgo8dGV4dCB4PSI5MCIgeT0iMTMwIiBmaWxsPSIjRkY3MDQzIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEwcHgiPmNvbnN0IGFwcCA9ICgpID0+IHs8L3RleHQ+Cjx0ZXh0IHg9IjkwIiB5PSIxNDUiIGZpbGw9IiNGRkYiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTBweCIgPiAgcmV0dXJuICg8L3RleHQ+Cjx0ZXh0IHg9IjkwIiB5PSIxNjAiIGZpbGw9IiM2MkQ5RkIiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTBweCIgPiAgICA8ZGl2PkhlbGxvPC9kaXY+PC90ZXh0Pgo8dGV4dCB4PSI5MCIgeT0iMTc1IiBmaWxsPSIjRkZGIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEwcHgiID4gICk7PC90ZXh0Pgo8dGV4dCB4PSI5MCIgeT0iMTkwIiBmaWxsPSIjRkY3MDQzIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEwcHgiID59PC90ZXh0Pgo8IS0tIE1vbml0b3IgMiAtLT4KPHJlY3QgeD0iMjcwIiB5PSI4MCIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIxMjAiIGZpbGw9IiMxQTFBMUEiIHJ4PSIxMCIvPgo8cmVjdCB4PSIyODAiIHk9IjkwIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iIzBCMUUzQyIvPgo8IS0tIENvZGUgTGluZXMgLS0+Cjx0ZXh0IHg9IjI5MCIgeT0iMTEwIiBmaWxsPSIjRkY3MDQzIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEwcHgiPmZ1bmN0aW9uIGFwaSgpIHs8L3RleHQ+Cjx0ZXh0IHg9IjI5MCIgeT0iMTI1IiBmaWxsPSIjRkZGIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEwcHgiID4gIHJldHVybiB7PC90ZXh0Pgo8dGV4dCB4PSIyOTAiIHk9IjE0MCIgZmlsbD0iIzYyRDlGQiIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMHB4IiA+ICAgIGRhdGE6ICJ0ZXN0IjwvdGV4dD4KPHRleHQgeD0iMjkwIiB5PSIxNTUiIGZpbGw9IiNGRkYiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTBweCIgPiAgfTwvdGV4dD4KPHR4dCB4PSIyOTAiIHk9IjE3MCIgZmlsbD0iI0ZGNzA0MyIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMHB4IiA+fTwvdGV4dD4KPCEtLSBQZXJzb24gLS0+CjxjaXJjbGUgY3g9IjI1MCIgY3k9IjE4MCIgcj0iMzAiIGZpbGw9IiNGREJBNzQiLz4KPCEtLSBIYWlyIC0tPgo8cGF0aCBkPSJNMjMwIDk2MEMyMzAgMTU1IDI3MCAyNTEgMjcwIDE1NSIgZmlsbD0iIzM3MjcyRiIvPgo8IS0tIEJvZHkgLS0+CjxyZWN0IHg9IjIzNSIgeT0iMjEwIiB3aWR0aD0iMzAiIGhlaWdodD0iNDAiIGZpbGw9IiNGOTY0NDMiLz4KPCEtLSBBcm1zIC0tPgo8cmVjdCB4PSIyMTAiIHk9IjIxNSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjI1IiBmaWxsPSIjRkRCQTc0Ii8+CjxyZWN0IHg9IjI3MCIgeT0iMjE1IiB3aWR0aD0iMjAiIGhlaWdodD0iMjUiIGZpbGw9IiNGREJBNzQiLz4KPCEtLSBLZXlib2FyZCAtLT4KPHJlY3QgeD0iMTkwIiB5PSIyNDAiIHdpZHRoPSIxMjAiIGhlaWdodD0iMTAiIGZpbGw9IiMyRDM3NDgiIHJ4PSIyIi8+CjwhLS0gQ29mZmVlIEN1cCAtLT4KPGVsbGlwc2UgY3g9IjE2MCIgY3k9IjIwMCIgcng9IjEwIiByeT0iOCIgZmlsbD0iIzk0N0M2NSIvPgo8ZWxsaXBzZSBjeD0iMTYwIiBjeT0iMTk4IiByeD0iOCIgcnk9IjYiIGZpbGw9IiM0Qjc2ODgiLz4KPCEtLSBQbGFudCAtLT4KPGVsbGlwc2UgY3g9IjM1MCIgY3k9IjIzMCIgcng9IjEyIiByeT0iMTAiIGZpbGw9IiM2NjMzMDAiLz4KPGNpcmNsZSBjeD0iMzUwIiBjeT0iMjE1IiByPSIxNSIgZmlsbD0iIzIyQzU1RSIvPgo8L3N2Zz4K"
+                                                        alt="Developer Illustration" class="img-fluid"
+                                                        style="max-width: 100%; height: auto;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- About Page -->
+                                    <div id="about" class="page container-fluid py-5 d-none">
+                                        <div class="container">
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-6 mb-5 mb-lg-0">
+                                                    <h2 class="display-4 text-white fw-bold mb-4">About Me</h2>
+                                                    <p class="text-light fs-5 mb-4">
+                                                        I'm a passionate developer with expertise in modern web
+                                                        technologies.
+                                                        I love creating beautiful, functional applications that solve
+                                                        real-world problems.
+                                                    </p>
+                                                    <p class="text-light mb-4">
+                                                        My journey in web development started 5 years ago, and since
+                                                        then I've been
+                                                        constantly learning and adapting to new technologies and
+                                                        frameworks.
+                                                    </p>
+                                                    <div class="row g-4">
+                                                        <div class="col-6">
+                                                            <div class="card bg-primary text-white h-100 border-0">
+                                                                <div class="card-body text-center">
+                                                                    <h3 class="h1 fw-bold">5+</h3>
+                                                                    <p class="mb-0">Years Experience</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="card bg-success text-white h-100 border-0">
+                                                                <div class="card-body text-center">
+                                                                    <h3 class="h1 fw-bold">50+</h3>
+                                                                    <p class="mb-0">Projects Completed</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="card bg-dark text-white border-0 shadow-lg">
+                                                        <div class="card-body p-5">
+                                                            <h4 class="card-title mb-4">Skills & Technologies</h4>
+                                                            <div class="row g-3">
+                                                                <div class="col-6">
+                                                                    <span
+                                                                        class="badge bg-primary fs-6 p-2 w-100">JavaScript</span>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <span
+                                                                        class="badge bg-info fs-6 p-2 w-100">React</span>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <span
+                                                                        class="badge bg-success fs-6 p-2 w-100">Node.js</span>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <span
+                                                                        class="badge bg-warning fs-6 p-2 w-100">Python</span>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <span
+                                                                        class="badge bg-danger fs-6 p-2 w-100">MongoDB</span>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <span
+                                                                        class="badge bg-secondary fs-6 p-2 w-100">PostgreSQL</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Services Page -->
+                                    <div id="services" class="page container-fluid py-5 d-none">
+                                        <div class="container">
+                                            <h2 class="display-4 text-white text-center fw-bold mb-5">My Services</h2>
+                                            <div class="row g-4">
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                                                        <div class="card-body text-center p-5">
+                                                            <div class="bg-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-4"
+                                                                style="width: 80px; height: 80px;">
+                                                                <span class="fs-1">💻</span>
+                                                            </div>
+                                                            <h4 class="card-title mb-3">Web Development</h4>
+                                                            <p class="card-text">Full-stack web applications using
+                                                                modern frameworks and technologies like React, Node.js,
+                                                                and more.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                                                        <div class="card-body text-center p-5">
+                                                            <div class="bg-success rounded-circle d-inline-flex align-items-center justify-content-center mb-4"
+                                                                style="width: 80px; height: 80px;">
+                                                                <span class="fs-1">🎨</span>
+                                                            </div>
+                                                            <h4 class="card-title mb-3">UI/UX Design</h4>
+                                                            <p class="card-text">Beautiful and intuitive user interfaces
+                                                                that provide excellent user experience and drive
+                                                                engagement.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                                                        <div class="card-body text-center p-5">
+                                                            <div class="bg-info rounded-circle d-inline-flex align-items-center justify-content-center mb-4"
+                                                                style="width: 80px; height: 80px;">
+                                                                <span class="fs-1">📱</span>
+                                                            </div>
+                                                            <h4 class="card-title mb-3">Mobile Apps</h4>
+                                                            <p class="card-text">Cross-platform mobile applications for
+                                                                iOS and Android devices using React Native and Flutter.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                                                        <div class="card-body text-center p-5">
+                                                            <div class="bg-warning rounded-circle d-inline-flex align-items-center justify-content-center mb-4"
+                                                                style="width: 80px; height: 80px;">
+                                                                <span class="fs-1">⚡</span>
+                                                            </div>
+                                                            <h4 class="card-title mb-3">API Development</h4>
+                                                            <p class="card-text">RESTful APIs and GraphQL services with
+                                                                proper authentication and scalable architecture.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                                                        <div class="card-body text-center p-5">
+                                                            <div class="bg-danger rounded-circle d-inline-flex align-items-center justify-content-center mb-4"
+                                                                style="width: 80px; height: 80px;">
+                                                                <span class="fs-1">🗄️</span>
+                                                            </div>
+                                                            <h4 class="card-title mb-3">Database Design</h4>
+                                                            <p class="card-text">Efficient database design and
+                                                                optimization for both SQL and NoSQL databases.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                                                        <div class="card-body text-center p-5">
+                                                            <div class="bg-secondary rounded-circle d-inline-flex align-items-center justify-content-center mb-4"
+                                                                style="width: 80px; height: 80px;">
+                                                                <span class="fs-1">🚀</span>
+                                                            </div>
+                                                            <h4 class="card-title mb-3">Deployment & DevOps</h4>
+                                                            <p class="card-text">Application deployment, CI/CD
+                                                                pipelines, and cloud infrastructure management.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Projects Page -->
+                                    <div id="projects" class="page container-fluid py-5 d-none">
+                                        <div class="container">
+                                            <h2 class="display-4 text-white text-center fw-bold mb-5">My Projects</h2>
+                                            <div class="row g-4">
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                                                        <div class="card-body p-4">
+                                                            <div class="bg-primary rounded mb-3 p-3 text-center">
+                                                                <span class="fs-1">🛒</span>
+                                                            </div>
+                                                            <h5 class="card-title mb-3">E-Commerce Platform</h5>
+                                                            <p class="card-text mb-3">A full-stack e-commerce solution
+                                                                with React, Node.js, and MongoDB. Features include user
+                                                                authentication, payment integration, and admin
+                                                                dashboard.</p>
+                                                            <div class="mb-3">
+                                                                <span class="badge bg-primary me-1">React</span>
+                                                                <span class="badge bg-success me-1">Node.js</span>
+                                                                <span class="badge bg-warning me-1">MongoDB</span>
+                                                            </div>
+                                                            <div class="d-flex gap-2">
+                                                                <button class="btn btn-primary btn-sm">Live
+                                                                    Demo</button>
+                                                                <button
+                                                                    class="btn btn-outline-light btn-sm">GitHub</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                                                        <div class="card-body p-4">
+                                                            <div class="bg-secondary rounded mb-3 p-3 text-center">
+                                                                <span class="fs-1">🤖</span>
+                                                            </div>
+                                                            <h5 class="card-title mb-3">AI Chatbot</h5>
+                                                            <p class="card-text mb-3">An intelligent chatbot with
+                                                                natural language processing, machine learning
+                                                                capabilities, and multi-language support.</p>
+                                                            <div class="mb-3">
+                                                                <span class="badge bg-primary me-1">Python</span>
+                                                                <span class="badge bg-success me-1">TensorFlow</span>
+                                                                <span class="badge bg-info me-1">Flask</span>
+                                                            </div>
+                                                            <div class="d-flex gap-2">
+                                                                <button class="btn btn-primary btn-sm">Live
+                                                                    Demo</button>
+                                                                <button
+                                                                    class="btn btn-outline-light btn-sm">GitHub</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Contact Page -->
+                                    <div id="contact" class="page container-fluid py-5 d-none">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-lg-8">
+                                                    <div class="text-center mb-5">
+                                                        <h2 class="display-4 text-white fw-bold mb-4">Get In Touch</h2>
+                                                        <p class="text-light fs-5">Ready to start your next project?
+                                                            Let's work together!</p>
+                                                    </div>
+                                                    <div class="card bg-dark border-0 shadow-lg">
+                                                        <div class="card-body p-5">
+                                                            <form>
+                                                                <div class="row g-3">
+                                                                    <div class="col-md-6">
+                                                                        <div class="form-floating">
+                                                                            <input type="text"
+                                                                                class="form-control bg-secondary text-white border-0"
+                                                                                id="name" placeholder="Your Name">
+                                                                            <label for="name" class="text-muted">Your
+                                                                                Name</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <div class="form-floating">
+                                                                            <input type="email"
+                                                                                class="form-control bg-secondary text-white border-0"
+                                                                                id="email" placeholder="Your Email">
+                                                                            <label for="email" class="text-muted">Your
+                                                                                Email</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-12">
+                                                                        <div class="form-floating">
+                                                                            <input type="text"
+                                                                                class="form-control bg-secondary text-white border-0"
+                                                                                id="subject" placeholder="Subject">
+                                                                            <label for="subject"
+                                                                                class="text-muted">Subject</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-12">
+                                                                        <div class="form-floating">
+                                                                            <textarea
+                                                                                class="form-control bg-secondary text-white border-0"
+                                                                                id="message" placeholder="Your Message"
+                                                                                style="height: 150px;"></textarea>
+                                                                            <label for="message" class="text-muted">Your
+                                                                                Message</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-12 text-center">
+                                                                        <button type="submit"
+                                                                            class="btn btn-primary btn-lg px-5 py-3 rounded-pill">Send
+                                                                            Message</button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row g-4 mt-5">
+                                                        <div class="col-md-4 text-center">
+                                                            <div class="card bg-dark text-white border-0 h-100">
+                                                                <div class="card-body p-4">
+                                                                    <div class="bg-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+                                                                        style="width: 60px; height: 60px;">
+                                                                        <span class="fs-4">📧</span>
+                                                                    </div>
+                                                                    <h5 class="card-title">Email</h5>
+                                                                    <p class="card-text">hamza@example.com</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 text-center">
+                                                            <div class="card bg-dark text-white border-0 h-100">
+                                                                <div class="card-body p-4">
+                                                                    <div class="bg-success rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+                                                                        style="width: 60px; height: 60px;">
+                                                                        <span class="fs-4">📱</span>
+                                                                    </div>
+                                                                    <h5 class="card-title">Phone</h5>
+                                                                    <p class="card-text">+92 300 1234567</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 text-center">
+                                                            <div class="card bg-dark text-white border-0 h-100">
+                                                                <div class="card-body p-4">
+                                                                    <div class="bg-info rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+                                                                        style="width: 60px; height: 60px;">
+                                                                        <span class="fs-4">📍</span>
+                                                                    </div>
+                                                                    <h5 class="card-title">Location</h5>
+                                                                    <p class="card-text">Lahore, Pakistan</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Footer -->
+                                    <footer class="bg-dark text-white py-4">
+                                        <div class="container text-center">
+                                            <p class="mb-0">&copy; 2025 Hamza's Portfolio. All rights reserved.</p>
+                                        </div>
+                                    </footer>
+
+                                    <script
+                                        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+                                        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNdDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+                                        crossorigin="anonymous"></script>
+
+                                    <script>
+                                        function showPage(pageId) {
+                                            // Hide all pages
+                                            const pages = document.querySelectorAll('.page');
+                                            pages.forEach(page => {
+                                                page.classList.add('d-none');
+                                            });
+
+                                            // Show selected page
+                                            document.getElementById(pageId).classList.remove('d-none');
+
+                                            // Update active nav item
+                                            const navLinks = document.querySelectorAll('.nav-item-link');
+                                            navLinks.forEach(link => {
+                                                link.classList.remove('active', 'bg-primary', 'rounded', 'px-3', 'py-2', 'fw-bold');
+                                            });
+
+                                            // Add active classes to clicked nav item
+                                            const activeLink = document.querySelector(`[data-page="${pageId}"]`);
+                                            if (activeLink) {
+                                                activeLink.classList.add('active', 'bg-primary', 'rounded', 'px-3', 'py-2', 'fw-bold');
+                                            }
+                                        }
+
+                                        // Initialize home page as active
+                                        document.addEventListener('DOMContentLoaded', function () {
+                                            showPage('home');
+                                        });
+                                    </script>
+                                </body>
+
+                                </html>
+                                <button class="btn btn-primary btn-sm">Live Demo</button>
+                                <button class="btn btn-outline-light btn-sm">GitHub</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                        <div class="card-body p-4">
+                            <div class="bg-success rounded mb-3 p-3 text-center">
+                                <span class="fs-1">📱</span>
+                            </div>
+                            <h5 class="card-title mb-3">Task Management App</h5>
+                            <p class="card-text mb-3">A mobile-first task management application with real-time updates,
+                                team collaboration, and progress tracking features.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-info me-1">React Native</span>
+                                <span class="badge bg-success me-1">Firebase</span>
+                                <span class="badge bg-danger me-1">Redux</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <button class="btn btn-primary btn-sm">Live Demo</button>
+                                <button class="btn btn-outline-light btn-sm">GitHub</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                        <div class="card-body p-4">
+                            <div class="bg-info rounded mb-3 p-3 text-center">
+                                <span class="fs-1">📊</span>
+                            </div>
+                            <h5 class="card-title mb-3">Analytics Dashboard</h5>
+                            <p class="card-text mb-3">A comprehensive analytics dashboard with interactive charts,
+                                real-time data visualization, and custom reporting features.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">Vue.js</span>
+                                <span class="badge bg-warning me-1">D3.js</span>
+                                <span class="badge bg-secondary me-1">Python</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <button class="btn btn-primary btn-sm">Live Demo</button>
+                                <button class="btn btn-outline-light btn-sm">GitHub</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                        <div class="card-body p-4">
+                            <div class="bg-warning rounded mb-3 p-3 text-center">
+                                <span class="fs-1">🎵</span>
+                            </div>
+                            <h5 class="card-title mb-3">Music Streaming App</h5>
+                            <p class="card-text mb-3">A Spotify-like music streaming application with playlist
+                                management, search functionality, and social features.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">React</span>
+                                <span class="badge bg-success me-1">Express</span>
+                                <span class="badge bg-info me-1">PostgreSQL</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <button class="btn btn-primary btn-sm">Live Demo</button>
+                                <button class="btn btn-outline-light btn-sm">GitHub</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card bg-dark text-white h-100 border-0 shadow">
+                        <div class="card-body p-4">
+                            <div class="bg-danger rounded mb-3 p-3 text-center">
+                                <span class="fs-1">🏠</span>
+                            </div>
+                            <h5 class="card-title mb-3">Real Estate Platform</h5>
+                            <p class="card-text mb-3">A modern real estate platform with property listings, virtual
+                                tours, mortgage calculator, and agent dashboard.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">Next.js</span>
+                                <span class="badge bg-success me-1">Prisma</span>
+                                <span class="badge bg-warning me-1">Stripe</span>
+                            </div>
+                            <div class="d-flex gap-2">

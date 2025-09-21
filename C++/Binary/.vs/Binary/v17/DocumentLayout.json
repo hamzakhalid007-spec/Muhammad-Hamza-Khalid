@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Coding\\Binary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD51151F-9638-49A5-9776-B0B84F8E7E30}|Binary.vcxproj|D:\\Coding\\Binary\\Binary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FD51151F-9638-49A5-9776-B0B84F8E7E30}|Binary.vcxproj|solutionrelative:Binary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Binary.cpp",
+              "DocumentMoniker": "D:\\Coding\\Binary\\Binary.cpp",
+              "RelativeDocumentMoniker": "Binary.cpp",
+              "ToolTip": "D:\\Coding\\Binary\\Binary.cpp",
+              "RelativeToolTip": "Binary.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-25T13:00:26.859Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

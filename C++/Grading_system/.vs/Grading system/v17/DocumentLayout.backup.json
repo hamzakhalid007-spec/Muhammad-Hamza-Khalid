@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Coding\\Grading system\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9954397-B297-4986-890A-0486173B018D}|Grading system.vcxproj|D:\\Coding\\Grading system\\Grading system.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C9954397-B297-4986-890A-0486173B018D}|Grading system.vcxproj|solutionrelative:Grading system.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Grading system.cpp",
+              "DocumentMoniker": "D:\\Coding\\Grading system\\Grading system.cpp",
+              "RelativeDocumentMoniker": "Grading system.cpp",
+              "ToolTip": "D:\\Coding\\Grading system\\Grading system.cpp",
+              "RelativeToolTip": "Grading system.cpp",
+              "ViewState": "AgIAABcAAAAAAAAAAAAmwCEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-22T11:13:05.154Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

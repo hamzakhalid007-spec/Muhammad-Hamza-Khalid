@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>iCoder - Heaven for Programmers</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">iCoder</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Topics
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Write for Us</a></li>
+              <li><a class="dropdown-item" href="#">Support</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="mx-2">
+          <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+          <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--Login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="loginModalLabel">Login to iCoder</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Sign up Modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="signupModalLabel">Get an iCoder Account</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+          </div>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"></label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"></label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
+            </div>
+            <button type="submit" class="btn btn-primary">Create Account</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://unsplash.com/photos/XJXWbfSo2f0/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzUzNzg5NzkxfA&force=true"
+          class="d-block w-100 object-fit-cover" alt="Technology workspace" style="height: 450px;">
+        <div class="carousel-caption d-block">
+          <h2 class="fs-3 fs-md-1">Welcome to iCoder</h2>
+          <p class="fs-6 fs-md-5">Technology News, Trends & Development</p>
+          <div class="d-flex flex-wrap justify-content-center gap-2">
+            <button class="btn btn-danger btn-sm">Technology</button>
+            <button class="btn btn-primary btn-sm">Tech Fun</button>
+            <button class="btn btn-success btn-sm">Web Development</button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://unsplash.com/photos/iar-afB0QQw/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzUzNzkxNDkxfA&force=true"
+          class="d-block w-100 object-fit-cover" alt="Coding environment" style="height: 450px;">
+        <div class="carousel-caption d-block">
+          <h2 class="fs-3 fs-md-1">The Best Coding Blog</h2>
+          <p class="fs-6 fs-md-5">Technology News, Trends & Development</p>
+          <div class="d-flex flex-wrap justify-content-center gap-2">
+            <button class="btn btn-danger btn-sm">Technology</button>
+            <button class="btn btn-primary btn-sm">Tech Fun</button>
+            <button class="btn btn-success btn-sm">Web Development</button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://unsplash.com/photos/OqtafYT5kTw/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzUzNzkxNzM1fA&force=true"
+          class="d-block w-100 object-fit-cover" alt="Award winning technology" style="height: 450px;">
+        <div class="carousel-caption d-block">
+          <h2 class="fs-3 fs-md-1">Award Winning Blog</h2>
+          <p class="fs-6 fs-md-5">Technology News, Trends & Development</p>
+          <div class="d-flex flex-wrap justify-content-center gap-2">
+            <button class="btn btn-danger btn-sm">Technology</button>
+            <button class="btn btn-primary btn-sm">Tech Fun</button>
+            <button class="btn btn-success btn-sm">Web Development</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container my-4">
+    <div class="row g-3">
+      <div class="col-12 col-md-6">
+        <div class="card h-100">
+          <div class="row g-0 h-100">
+            <div class="col-12 col-lg-8 order-2 order-lg-1">
+              <div class="card-body d-flex flex-column h-100">
+                <span class="badge bg-danger mb-2 align-self-start">World</span>
+                <h5 class="card-title">Global Coding Conferences</h5>
+                <p class="text-muted small mb-2">July 12</p>
+                <p class="card-text flex-grow-1">From AI to Web3, get insights that shape tomorrow's digital landscape.
+                </p>
+                <a href="#" class="btn btn-outline-primary btn-sm mt-auto align-self-start">Continue reading</a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 order-1 order-lg-2">
+              <img class="img-fluid w-100 h-100 object-fit-cover rounded-top rounded-lg-end rounded-lg-top-0"
+                src="https://unsplash.com/photos/FewHpO4VC9Y/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzUzNzk2ODI3fA&force=true"
+                alt="Global coding conference" style="min-height: 200px;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6">
+        <div class="card h-100">
+          <div class="row g-0 h-100">
+            <div class="col-12 col-lg-8 order-2 order-lg-1">
+              <div class="card-body d-flex flex-column h-100">
+                <span class="badge bg-success mb-2 align-self-start">Design</span>
+                <h5 class="card-title">Learn Designing</h5>
+                <p class="text-muted small mb-2">July 11</p>
+                <p class="card-text flex-grow-1">Dive into interactive sessions and case studies from top design
+                  professionals.</p>
+                <a href="#" class="btn btn-outline-success btn-sm mt-auto align-self-start">Continue reading</a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 order-1 order-lg-2">
+              <img class="img-fluid w-100 h-100 object-fit-cover rounded-top rounded-lg-end rounded-lg-top-0"
+                src="https://unsplash.com/photos/xWga0cs8vSk/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzUzNzk3MTUyfA&force=true"
+                alt="Design learning" style="min-height: 200px;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-4">
+    <div class="row g-3">
+      <div class="col-12 col-md-6">
+        <div class="card h-100">
+          <div class="row g-0 h-100">
+            <div class="col-12 col-lg-8 order-2 order-lg-1">
+              <div class="card-body d-flex flex-column h-100">
+                <span class="badge bg-primary mb-2 align-self-start">AI</span>
+                <h5 class="card-title">Top AI Tools for Developers</h5>
+                <p class="text-muted small mb-2">July 9</p>
+                <p class="card-text flex-grow-1">Explore essential AI tools boosting developer productivity in 2025.</p>
+                <a href="#" class="btn btn-outline-primary btn-sm mt-auto align-self-start">Continue reading</a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 order-1 order-lg-2">
+              <img class="img-fluid w-100 h-100 object-fit-cover rounded-top rounded-lg-end rounded-lg-top-0"
+                src="https://unsplash.com/photos/eGGFZ5X2LnA/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzUzNzk2NjQ0fA&force=true"
+                alt="AI tools for developers" style="min-height: 200px;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6">
+        <div class="card h-100">
+          <div class="row g-0 h-100">
+            <div class="col-12 col-lg-8 order-2 order-lg-1">
+              <div class="card-body d-flex flex-column h-100">
+                <span class="badge bg-warning mb-2 align-self-start">Convenience</span>
+                <h5 class="card-title">Smart Homes, Smarter Future</h5>
+                <p class="text-muted small mb-2">July 8</p>
+                <p class="card-text flex-grow-1">How smart tech is redefining home living and daily routines.</p>
+                <a href="#" class="btn btn-outline-success btn-sm mt-auto align-self-start">Continue reading</a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 order-1 order-lg-2">
+              <img class="img-fluid w-100 h-100 object-fit-cover rounded-top rounded-lg-end rounded-lg-top-0"
+                src="https://unsplash.com/photos/PBtfsP3eEZ4/download?ixid=M3wxMjA3fDB8MXxhbGw8fHx8fHx8fHwxNzUzNzk4MDczfA&force=true"
+                alt="Smart home technology" style="min-height: 200px;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container py-4">
+    <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center">
+      <p class="mb-2 mb-sm-0">© 2017–2025 Company, Inc. · <a href="#" class="text-decoration-none">Privacy</a> · <a
+          href="#" class="text-decoration-none">Terms</a></p>
+      <a href="#" class="text-decoration-none">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
