@@ -1,4 +1,0 @@
-﻿  Binary.cpp
-D:\Coding\Binary\Binary.cpp(18,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
-D:\Coding\Binary\Binary.cpp(25,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-  Binary.vcxproj -> D:\Coding\Binary\x64\Debug\Binary.exe
