@@ -1,0 +1,19 @@
+{
+    "scan_id": "ed431066",
+    "target": "127.0.0.1",
+    "duration_seconds": 2.18,
+    "open_ports": {
+        "22": {
+            "service": "SSH",
+            "banner": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14"
+        },
+        "80": {
+            "service": "HTTP",
+            "banner": "Server: Apache/2.4.58 (Ubuntu)"
+        },
+        "631": {
+            "service": "Unknown",
+            "banner": "No banner"
+        }
+    }
+}
