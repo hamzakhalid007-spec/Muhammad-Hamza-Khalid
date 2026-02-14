@@ -1,3 +1,0 @@
-antiorm==1.2.1
-db==0.1.1
-mysql-connector-python==9.5.0
